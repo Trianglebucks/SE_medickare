@@ -1,0 +1,188 @@
+html, body {
+    line-height: 1.5;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+}
+
+.navbar {
+    padding-left: 50px;
+    padding-right: 50px;
+    box-shadow: 0.5px 1px 2px rgb(170, 169, 169);
+}
+.navbar-brand label {
+    font-size: 2.5rem;
+    color: #183e9f;
+    font-weight: 700;
+    margin-left: 10px;
+    display: inline;
+    vertical-align: middle;
+    display: inline-block;
+    margin-bottom: -60px;
+}
+
+.navbar-nav a {
+    font-size: 1.5rem;
+    margin-left: 50px;
+    font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #45cc96;
+}
+
+.btn {
+    background-color: #ffff;
+    color: #45cc96;
+    border-color: #45cc96;
+}
+
+.btn:hover {
+    background-color: #45cc96;
+    color: #ffff;
+}
+
+#home {
+    background-image: url("pictures/home_background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+#home .header {
+    font-weight: 700;
+    color: #183e9f;
+}
+
+#home .subheader {
+    font-weight: 400;
+    color: #ffff;
+}
+
+#about {
+    background-image: url("pictures/about_background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+#about .header {
+    font-weight: 500;
+    text-align: right;
+}
+
+#about .subheader {
+    font-weight: 200;
+    text-align: right;
+    font-size: 30px;
+    max-width: 800px;
+    margin-left: 550px;
+}
+
+#contact {
+    background-color: #118ec0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    color: #ffff;
+}
+
+#contact .header {
+    font-weight: 500;
+}
+
+#contact .facebook {
+    background: url("pictures/facebook.png") no-repeat;
+    height: 100px;
+    cursor: pointer;
+}
+
+#contact .facebook:hover {
+    background: url("pictures/facebook_after.png") no-repeat;
+    height: 100px;
+    transition: .2s;
+}
+
+#contact .twitter {
+    background: url("pictures/twitter.png") no-repeat;
+    height: 100px;
+    cursor: pointer;
+}
+
+#contact .twitter:hover {
+    background: url("pictures/twitter_after.png") no-repeat;
+    height: 100px;
+    transition: .2s;
+}
+
+#contact .gmail {
+    background: url("pictures/gmail.png") no-repeat;
+    height: 100px;
+    cursor: pointer;
+}
+
+#contact .gmail:hover {
+    background: url("pictures/gmail_after.png") no-repeat;
+    height: 100px;
+    transition: .2s;
+}
+
+#contact .phone {
+    background: url("pictures/phone.png") no-repeat;
+    height: 100px;
+    cursor: pointer;
+}
+
+#contact .phone:hover {
+    background: url("pictures/phone_after.png") no-repeat;
+    height: 100px;
+    transition: .2s;
+}
+
+#contact label {
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 20px;
+    text-decoration: none;
+    color: #ffff;
+}
+
+#location {
+    background-color: #ffffff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    color: rgb(0, 0, 0);
+}
+
+#location .header {
+    font-weight: 500;
+}
+
+#location .map {
+    border: 1px solid;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    padding: 35px;
+    margin: 20px;
+}
+
+.footer {
+    position: flex;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #2b2a2a;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
